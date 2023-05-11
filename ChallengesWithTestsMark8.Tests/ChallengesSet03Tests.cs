@@ -28,7 +28,7 @@ namespace ChallengesWithTestsMark8.Tests
             ChallengesSet03 challenger = new ChallengesSet03();
 
             // Act
-            bool actual = challenger.ArrayContainsAFalse(values);
+            bool actual = ChallengesSet03.ArrayContainsAFalse(values);
 
             // Assert
             Assert.Equal(expected, actual);
